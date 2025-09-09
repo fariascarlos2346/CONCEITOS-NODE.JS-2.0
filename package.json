@@ -1,6 +1,7 @@
 {
   "name": "conceitos-node.js-2.0",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Esse Projetos é para Fixisar os conceitos desta tecnologia NODE.JS."
+  "description": "Esse Projetos é para Fixisar os conceitos desta tecnologia NODE.JS.",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
